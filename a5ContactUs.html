@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/a5ContactUs.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pac8woa.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode-body-bg dark-mode-text">
+    <div id="wrapper" class="dark-mode-body-bg dark-mode-text">
+        <header class="dark-mode-header">
+                <img src="media/flag.jpg" alt="" class="header-img">
+                <h1 class="header-heading">alEN's shop of military games</h1>
+                <a href="" class="header-mode dark-mode-text">&#9788;</a>
+        </header>
+        <nav class="dark-mode-header">
+            <div class="left-nav">
+                <div class="link-container">
+                    <a href="a5Store.html" class="dark-mode-menu-text">Home</a>
+                    <div class="link-underline-container">
+                        <div class="link-underline"></div>
+                    </div>
+                </div>
+                <div class="link-container">
+                    <a href="" class="dark-mode-menu-text">Shop</a>
+                    <div class="link-underline-container">
+                        <div class="link-underline"></div>
+                    </div>
+                </div>
+                <div class="link-container">
+                    <a href="a5ContactUs.html" class="dark-mode-menu-text">Contact Us</a>
+                    <div class="link-underline-container">
+                        <div class="link-underline"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-nav">
+                <a href="" class="dark-mode-menu-text">Support Ukrainian army</a>
+                    <div class="link-underline-container">
+                        <div class="link-underline"></div>
+                    </div>
+            </div>
+        </nav>
+        <div class="container">
+            <aside id="aside" class="dark-mode-content-bg">
+                <ul class="dark-mode-text">
+                    <li class="first-lvl-list">Administrator:</li>
+                    <ul class="dark-mode-text">
+                        <li class="second-lvl-list">asych@gmail.con</li>
+                        <li class="second-lvl-list">Andrii Sych</li>
+                    </ul>
+                    <li class="first-lvl-list">Tech-support (1st line):</li>
+                    <ul class="dark-mode-text">
+                        <li class="second-lvl-list">alen-tech-support@myseneca.ca</li>
+                        <li class="second-lvl-list">+88005553535</li>
+                    </ul>
+                    <li class="first-lvl-list">Tech-support (2nd line):</li>
+                    <ul class="dark-mode-text">
+                        <li class="second-lvl-list">alen-tech-support@myseneca.ca</li>
+                        <li class="second-lvl-list">+380503364085</li>
+                    </ul>
+                </ul>
+            </aside>
+            <main class="dark-mode-content-bg">
+                <form action="https://httpbin.org/post" method="POST" class="form dark-mode-form">
+                    <fieldset class="dark-mode-form-fieldset">
+                        <legend class="form-heading">Enter your info:</legend>
+                        <h3 class="main-header">all fields are required</h3>
+                        <input type="hidden" name="fullName" value="Andrii Sych"/>
+                        <input type="hidden" name="studentNumber" value="125752212"/>
+                        <div class="form-container">
+                            <div class="upper-form">
+                                <div class="error-container">
+                                    <h5 class="error-message  error-invisible">only alphabetical characters and start with a capital</h5>
+                                    <div class="upper-form-label">
+                                        <div class="label-container">
+                                            <label for="name-input">Name:</label>
+                                        </div>
+                                        <input type="text" id="name-input" name="name" class="input-field form-input-text" >
+                                    </div>
+                                </div>
+                                <div class="error-container">
+                                    <h5 class="error-message  error-invisible">must be between 0 and 999</h5>
+                                    <div class="upper-form-label">
+                                        <div class="label-container">
+                                            <label for="age-input">Age:</label>
+                                        </div>
+                                        <input type="text" id="age-input" name="age" class="input-field form-input-text" >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="middle-form">
+                                <div class="error-container">
+                                    <h5 class="error-message  error-invisible">FILLER</h5>
+                                    <div class="upper-form-label">
+                                        <div class="label-container">
+                                            <label for="email-input">Email:</label>
+                                        </div>
+                                        <input type="text" id="email-input" name="email" class="input-field form-input-text" >
+                                    </div>
+                                </div>
+                                <div class="error-container">
+                                    <h5 class="error-message  error-invisible">must have format: (NNN)NNN-NNNN</h5>
+                                    <div class="upper-form-label">
+                                        <div class="label-container">
+                                            <label for="phone-input">Phone:</label>
+                                        </div>
+                                        <input type="text" id="phone-input" name="phone" class="input-field form-input-text" >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lower-form">
+                                <div class="error-container">
+                                    <div class="upper-form-label radio-container">
+                                        <label class="lower-form-label">
+                                            <div class="radio-input-container">
+                                                <input type="radio" name="gender" checked value="m" class="form-input-radio">
+                                                <div class="radio-label">Male</div>
+                                            </div>
+                                        </label>
+                                        <label class="lower-form-label">
+                                            <div class="radio-input-container">
+                                                <input type="radio" name="gender" value="f" class="form-input-radio">
+                                                <div class="radio-label">Female</div>
+                                            </div>
+                                        </label>
+                                        <label class="lower-form-label">
+                                            <div class="radio-input-container">
+                                                <input type="radio" name="gender" value="f" class="form-input-radio">
+                                                <div class="radio-label">Not to mention</div>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="select-container">
+                                    <select name="region" class="select" id="">
+                                        <option selected>Ontario</option>
+                                        <option>Alberta</option>
+                                        <option>British Columbia</option>
+                                        <option>Manitoba</option>
+                                        <option>New Brunswick</option>
+                                        <option>Newfoundland and Labrador</option>
+                                        <option>Northwest territories</option>
+                                        <option>Nova Scotia</option>
+                                        <option>Nunavut</option>
+                                        <option>Prince Edward Island</option>
+                                        <option>Quebec</option>
+                                        <option>Saskatchewan</option>
+                                        <option>Yukon</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="footer-form">
+                                <div class="error-container">
+                                    <h5 class="error-message error-invisible">Cannot be empty</h5>
+                                    <div class="upper-form-label">
+                                        <textarea name="comment" placeholder="Any thoughts?" maxlength="200"  id="" class="input-field form-input-textarea"></textarea>
+                                    </div>
+                                </div>
+                                <button type="submit" class="buy">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </main>
+        </div>
+        <footer class="dark-mode-header">
+            <div class="author dark-mode-menu-text">
+                <h6>Andrii Sych	&#169;</h6>
+            </div>
+            <div class="timestamp dark-mode-menu-text">
+                Document was last modified on 
+                <script>
+                    document.write(document.lastModified);
+                </script>
+            </div>
+        </footer>
+    </div>
+    <script src="js/mode-enabler.js"></script>
+    <script src="js/a5Valid.js"></script>
+</body>
+</html>
